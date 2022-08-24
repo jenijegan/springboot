@@ -10,6 +10,11 @@ public class HelloJava {
     public String Hello(){
         return "welcome to pubg";
     }
-    
+
+    @GetMapping("/getPubg")
+    public String Pubg(){
+        return "welcome to battle field";
+    }
+
 
 }
